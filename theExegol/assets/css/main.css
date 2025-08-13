@@ -1,0 +1,170 @@
+/* Resetowanie domyślnych styli */
+body, h1, h2, h3, p, ul, li, form {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+a:hover{
+  cursor: pointer;
+}
+
+fieldset {
+  padding: 0;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+section#top{
+  width: 80%;
+  height: 50px;
+  margin: 0;
+}
+
+section#banner {
+  background-image: url('../img/baner.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 220px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+section#banner h1#banerH1{
+  font-size: 50px;
+  color: rgba(16, 160, 185, 0);
+}
+
+section.author{
+  background-image: url('../img/background.png');
+  background-position: center;
+  color: white;
+}
+
+section.books > div{
+  width: 100%; /* Szerokość elementu */
+  overflow-x: auto; /* Dodaj suwak poziomy */
+  display: flex; /* Ustaw układ flexbox dla kolumn */
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+
+section.books .book {
+  display: inline-block;
+  margin: 5px; /* Dodaj marginesy między kolumnami */
+  padding: 5px; /* Dodaj wypełnienie do kolumn */
+  background-color: #fff; /* Ustaw kolor tła kolumn */
+  text-align: center; /* Wyśrodkuj tekst w kolumnach */
+  width: 200px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+section.books .book img {
+  width: 100%;
+  height: auto;
+}
+
+section.team{
+  height: 350px;
+}
+
+section.team > div{
+  width: 100%; /* Szerokość elementu */
+  overflow-x: auto; /* Dodaj suwak poziomy */
+  display: flex; /* Ustaw układ flexbox dla kolumn */
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+section.team .column{
+  margin: 5px; /* Dodaj marginesy między kolumnami */
+  padding: 5px; /* Dodaj wypełnienie do kolumn */
+  background-color: #fff; /* Ustaw kolor tła kolumn */
+  text-align: center; /* Wyśrodkuj tekst w kolumnach */
+  width: 240px;
+}
+
+section.team .column .avatar{
+  border-radius: 150px;
+  width: 128px;
+  height: 128px;
+}
+
+section.team .column .p{
+  width: 240px;
+}
+
+section.team .slider-container {
+  display: flex; /* Ustaw układ flexbox dla przycisków i zawartości */
+  justify-content: space-between; /* Wyrównanie elementów w poziomie */
+  align-items: center; /* Wyrównanie elementów w pionie */
+  width: 100%; /* Szerokość kontenera suwaka */
+  margin-top: 20px; /* Dodaj margines nad suwakiem */
+}
+
+section.events{
+  height: 100px;
+}
+
+section.events #eventsLi{
+  width: 100%; /* Szerokość elementu */
+  overflow-x: auto; /* Dodaj suwak poziomy */
+  display: flex; /* Ustaw układ flexbox dla kolumn */
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+
+section.events #eventsLi .column{
+  display: inline-block;
+  margin: 5px; /* Dodaj marginesy między kolumnami */
+  padding: 5px; /* Dodaj wypełnienie do kolumn */
+  background-color: #fff; /* Ustaw kolor tła kolumn */
+  text-align: center; /* Wyśrodkuj tekst w kolumnach */
+}
+
+section.events #eventsLi .column .liEvents{
+  margin: 27px;
+  width: 175px;
+}
+
+section.events #eventsLi .column .liEvents .img{
+  width: 13px;
+  height: auto;
+
+}
+
+section.events #eventsLi .column .liEvents .img .smal{
+  width: 13.5px;
+  height: auto;
+
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}

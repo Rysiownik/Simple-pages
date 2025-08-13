@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>Generator wydarzeń</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+        <script src="assets/js/script.js" defer></script>
+    </head>
+    <body>
+        <h1>Jak stworzyć nowe wydarzenie?</h1>
+        <fieldset>
+            <label for="nazwa">Nazwa systemowa</label>
+            <input type="text" id="nazwa" placeholder="Np. nowyRozdzialIII">
+            <br />
+            <label for="tytul">Tytuł</label>
+            <input type="text" id="tytul">
+            <br />
+            <label for="onraz">Obraz</label>
+            <select id="obraz" type="img" >
+                <option selected >2231</option>
+                <option>Rysiownik</option>
+                <option>Aarion</option>
+            </select>
+            <br />
+            <label for="info">Treść</label>
+            <textarea id="info" required></textarea>
+        </fieldset>
+        <p id="p"></p>
+        <button id="stworz">Wygeneruj kod.</button>
+        <div class="odpowiedz" style="display: none;">
+            <div class="column-theree" id="htmlDiv">
+                <h3>Do section wydarzenia dodaj:</h3>
+                <textarea id="html" class="kod"></textarea>
+            </div>
+            <div class="column-theree">
+                <h3>Do info.js dodaj:</h3>
+                <textarea id="css" class="kod"></textarea>
+            </div>
+        </div>
+    </body>
+</html>

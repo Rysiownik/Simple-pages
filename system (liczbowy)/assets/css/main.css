@@ -1,0 +1,93 @@
+body {
+    font-family: sans-serif; /* Set a basic font */
+    margin: 2rem; /* Add some margin around the body */
+  }
+  
+  h1 {
+    text-align: center; /* Center align the title */
+    margin-bottom: 1rem; /* Add some space after the title */
+  }
+  
+  #conwerter {
+    border: 1px solid #ddd; /* Add a border to the converter section */
+    padding: 1rem; /* Add some padding inside the converter section */
+    border-radius: 5px; /* Add rounded corners */
+    margin: 0 auto; /* Center the converter section horizontally */
+    max-width: 500px; /* Set a maximum width for responsiveness */
+  }
+  
+  #conwerter label {
+    display: block; /* Make labels display on a new line */
+    margin-bottom: 5px; /* Add some space after labels */
+  }
+  
+  #conwerter fieldset {
+    border: none; /* Remove default border from fieldset */
+    padding: 0; /* Remove default padding from fieldset */
+  }
+  
+  #conwerter fieldset #output {
+    width: 500px; /* Set the input width to fill the full width */
+    height: 18.4px;
+    padding-left: 5px;
+    padding-bottom: 2px;
+    border: 1px solid #ccc; /* Add a border to the input */
+    border-radius: 3px; /* Add rounded corners to the input */
+    margin-top: 4px;
+    position: relative;
+  }
+  
+  #conwerter fieldset #number {
+    width: 100%; /* Set the input width to fill the full width */
+    /* padding: 5px;  */
+    bottom: 40px;
+    height: 20.5px;
+    border: 1px solid #ccc; /* Add a border to the input */
+    border-radius: 3px; /* Add rounded corners to the input */
+    position: relative;
+    color: white;
+    /* display: none; */
+  }
+  
+  #conwerter select {
+    padding: 5px; /* Add some padding to the select box */
+    border: 1px solid #ccc; /* Add a border to the select box */
+    border-radius: 3px; /* Add rounded corners to the select box */
+    margin-bottom: 1rem; /* Add some space after the select box */
+  }
+  
+  #conwerter button {
+    padding: 10px 20px; /* Set padding for the button */
+    background-color: #4CAF50; /* Set background color for the button */
+    color: white; /* Set text color for the button */
+    border: none; /* Remove default border from the button */
+    border-radius: 5px; /* Add rounded corners to the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  #conwerter button:hover {
+    background-color: #3e8e41; /* Change background color on hover */
+  }
+  
+  #conwerter #score {
+    margin-top: 1rem; /* Add some space before the result */
+    font-weight: bold; /* Set the font weight to bold for the result */
+  }
+  
+  /* Styles for the unordered list */
+  #conwerter ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  #conwerter ul li {
+    display: inline-block; /* Display list items inline */
+    margin-right: 10px; /* Add some space between list items */
+  }
+  
+  #conwerter ul li img {
+    width: 17.14285714285714px; /* Set a width for the images */
+    height: 30px; /* Set a height for the images */
+  }
+  

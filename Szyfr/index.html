@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <title>Szyfr Vigenère'a</title>
+
+        <script src="assets/js/crypt.js" defer></script>
+    </head>
+    <body>
+        <h1>Szyfr Vigenère'a połączony z Szyfrem Klawiaturowym</h1>
+
+        <label for="message">Wiadomość:</label>
+        <!-- Niańczenie grzegrzółki śmiechem będzie dobre. -->
+        <input type="text" id="message" name="message" placeholder="Wprowadź wiadomość">
+        <br>
+        <label for="key">Klucz:</label>
+        <input type="text" id="key" nama="key" placeholder="Wprowadź klucz">
+        <br>
+        <select id="crypt">
+            <option value="encrypt">Szyfruj</option>
+            <option value="decrypt">Deszyfruj</option>
+        </select>
+        <br>
+        <button id="btnCrypt">Przetwórz</button>
+
+        <p id="result"></p>
+        <p id="error"></p>
+    </body>
+</html>

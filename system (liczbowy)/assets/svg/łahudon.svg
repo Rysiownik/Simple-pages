@@ -1,0 +1,10 @@
+<svg viewBox="0 0 8 14" width="8" height="14" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="4" cy="4" r="3" stroke="#000" stroke-width="1.5" fill="none" />
+  <path d="M 4,4 
+    A 40,40,0,0,1, 70.71,29.29 
+    L 81.42,50 
+    Z" 
+    troke="blue" stroke-width="5" fill="white" />
+  <path d="M 7,5 L 2,14" stroke="#000" stroke-width="1.5" fill="none"/>
+</svg> 
+

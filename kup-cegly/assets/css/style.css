@@ -1,0 +1,181 @@
+/* Resetowanie stylów domyślnych */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Globalne style */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: #f9f9f9;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+.header {
+    width: 100%;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+    margin: 30px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+.sidebar {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 160px;
+    width: 120px;
+    /* width: 515,312px; */
+    transform: translateY(-50%);
+    background-color: #1abc9c;
+    padding: 5px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+}
+
+nav ul li a:hover {
+    color: #666;
+}
+
+nav ul li a img {
+    height: 16px;
+    margin-bottom: -2px;
+}
+
+nav ul li a img:hover {
+    src: "../img/cegła symbol hover.png";
+}
+
+fieldset{
+    margin-left: 27.5%;
+    margin-bottom: 5px;
+    width: 584.594px;
+    height: 265px;
+}
+
+.avatar {
+    width: 75px;
+    height: auto;
+}
+
+.btn {
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    border-style: solid;
+    background-color: wheat;
+}
+
+main {
+    background-image: url("../img/cegły.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+}
+
+.expert-details {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.expert-details img {
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+#reklamaTekst{
+    height: 1900px;
+}
+
+.brick-info {
+    margin-bottom: 20px;
+}
+
+.column-theree{
+    float: left;
+    width: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+footer p {
+    font-size: 14px;
+}
+/* Responsive design */
+
+#obrot{
+    cursor: pointer;
+    position: fixed;
+    right: 0;
+    transition: transform 0.5s;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}

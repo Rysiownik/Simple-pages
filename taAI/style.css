@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ECF3FD;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    top: 20px;
+    margin-top: 0;
+    position: fixed;
+    width: 100%;
+}
+
+header .name{
+    position: fixed;
+    left: 10px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    right: 10px;
+    top: 20px;
+}
+
+header nav p {
+    margin-right: 15px;
+}
+
+header nav button {
+    margin-right: 15px;
+    background-color: #ECF3FD;
+    border: 2px solid #666;
+    border-radius: 15px 15px 15px 15px;
+    padding: 2px;
+}
+
+.container {
+    top: 0;
+    max-width: 800px;
+    margin: 50px auto;
+    margin-top: 80px;
+    padding: 70px;
+}
+
+h1 {
+    position: relative;
+    font-size: 24px;
+    left: -250px;
+}
+
+.description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.card {
+    background: #dbeafe;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    height: 100px;
+}
