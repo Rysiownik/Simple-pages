@@ -1,0 +1,609 @@
+<html class="dark" style="color-scheme: dark;" lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <title>CzatDziPiTi</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta property="og:title" content="ChatGPT">
+        <meta property="og:image" content="https://chat.openai.com/images/chatgpt-share-og.png">
+        <meta property="og:description" content="A conversational AI system that listens, learns, and challenges">
+        <meta property="og:url" content="https://chat.openai.com">
+        <meta name="apple-itunes-app" content="app-id=6448311069">
+        <meta name="next-head-count" content="8">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://chat.openai.com/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://chat.openai.com/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://chat.openai.com/favicon-16x16.png">
+        <link rel="preconnect" href="https://cdn.openai.com">
+        <link rel="preload" href="https://cdn.openai.com/common/fonts/soehne/soehne-buch.woff2" as="font" crossorigin="">
+        <link rel="preload" href="https://cdn.openai.com/common/fonts/soehne/soehne-halbfett.woff2" as="font" crossorigin="">
+        <link rel="preload" href="https://cdn.openai.com/common/fonts/soehne/soehne-mono-buch.woff2" as="font" crossorigin="">
+        <link rel="preload" href="https://cdn.openai.com/common/fonts/soehne/soehne-mono-halbfett.woff2" as="font" crossorigin="">
+        <link rel="preload" href="https://chat.openai.com/_next/static/css/29b1eb48bbd0fef8.css" as="style">
+        <link rel="stylesheet" href="https://chat.openai.com/_next/static/css/29b1eb48bbd0fef8.css" data-n-g="">
+        <noscript data-n-css=""></noscript>
+        <script src="script.js" defer></script>
+        <!-- <script type="text/javascript" async="" src="https://widget.intercom.io/widget/dgkjq2bp"></script>
+        <script defer="" nomodule="" src="https://chat.openai.com/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script>
+        <script src="https://chat.openai.com/_next/static/chunks/webpack-fa117e61bb9c0646.js" defer=""></script>
+        <script src="https://chat.openai.com/_next/static/chunks/framework-e23f030857e925d4.js" defer=""></script>
+        <script src="https://chat.openai.com/_next/static/chunks/main-35ce5aa6f4f7a906.js" defer=""></script>
+        <script src="https://chat.openai.com/_next/static/chunks/pages/_app-b2ac725b208f2161.js" defer=""></script>
+        <script src="https://chat.openai.com/_next/static/chunks/1f110208-cda4026aba1898fb.js" defer=""></script>
+        <script src="https://chat.openai.com/_next/static/chunks/012ff928-bcfa62e3ac82441c.js" defer=""></script>
+        <script src="https://chat.openai.com/_next/static/chunks/68a27ff6-b1db347c50639918.js" defer=""></script>
+        <script src="https://chat.openai.com/_next/static/chunks/2802bd5f-15923fb46be55b45.js" defer=""></script>
+        <script src="https://chat.openai.com/_next/static/chunks/bd26816a-7ae54dd3357d90b4.js" defer=""></script>
+        <script src="https://chat.openai.com/_next/static/chunks/984-1278472924e49180.js" defer=""></script>
+        <script src="https://chat.openai.com/_next/static/chunks/653-4cb05ee80f77e17d.js" defer=""></script>
+        <script src="https://chat.openai.com/_next/static/chunks/597-ed3dbaa450c308e5.js" defer=""></script>
+        <script src="https://chat.openai.com/_next/static/chunks/496-cb3e2b679437e27d.js" defer=""></script>
+        <script src="https://chat.openai.com/_next/static/chunks/709-33cf407bcca55d8c.js" defer=""></script>
+        <script src="https://chat.openai.com/_next/static/chunks/pages/index-5b58f27ddbccf6fb.js" defer=""></script>
+        <script src="https://chat.openai.com/_next/static/CGRk_Om_aEGLXXSCuMmxw/_buildManifest.js" defer=""></script> -->
+        <!-- <script src="https://chat.openai.com/_next/static/CGRk_Om_aEGLXXSCuMmxw/_ssgManifest.js" defer=""></script> -->
+        <meta name="react-scroll-to-bottom:version" content="4.2.0">
+        <style data-emotion="react-scroll-to-bottom--css-lbgnz" data-s=""></style>
+    </head>
+    <body class="antialiased">
+        <div id="__next">
+            <!-- <script>
+                !function(){
+                    try{
+                        var d=document.documentElement, c=d.classList;
+                        c.remove('light','dark');
+                        var e=localStorage.getItem('theme');
+                        if('system'===e||(!e&&true)){
+                            var t='(prefers-color-scheme: dark)',m=window.matchMedia(t);
+                            if(m.media!==t||m.matches){
+                                d.style.colorScheme = 'dark';
+                                c.add('dark')
+                            }else{
+                                d.style.colorScheme = 'light';c.add('light')
+                            }
+                        }else if(e){
+                            c.add(e|| '')
+                        }
+                        if(e==='light'||e==='dark'){
+                            d.style.colorScheme=e
+                        }
+                    }catch(e){}
+                }()
+            </script> -->
+            <div class="overflow-hidden w-full h-full relative flex z-0">
+                <div class="dark flex-shrink-0 overflow-x-hidden bg-gray-900" style="width: 260px; height: 985.5;">
+                    <div class="h-full w-[260px]">
+                        <div class="flex h-full min-h-0 flex-col ">
+                            <div class="scrollbar-trigger relative h-full w-full flex-1 items-start border-white/20">
+                                <h2 style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">
+                                    Chat history
+                                </h2>
+                                    <nav class="flex h-full w-full flex-col p-2" aria-label="Chat history">
+                                        <div class="mb-1 flex flex-row gap-2">
+                                            <a id="nowy" class="flex p-3 items-center gap-3 transition-colors duration-200 text-white cursor-pointer text-sm rounded-md border border-white/20 hover:bg-gray-500/10 h-11 flex-shrink-0 flex-grow">
+                                                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                                </svg>
+                                                New chat
+                                            </a>
+                                            <span class="" data-state="closed">
+                                                <a class="flex p-3 gap-3 transition-colors duration-200 text-white cursor-pointer text-sm rounded-md border border-white/20 hover:bg-gray-500/10 h-11 w-11 flex-shrink-0 items-center justify-center">
+                                                    <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                                        <line x1="9" y1="3" x2="9" y2="21"></line>
+                                                    </svg>
+                                                    <span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">
+                                                        Hide sidebar
+                                                    </span>
+                                                </a>
+                                            </span>
+                                        </div>
+                                        <div class="absolute left-0 top-14 z-20 overflow-hidden transition-all duration-500 invisible max-h-0">
+                                            <div class="bg-gray-900 px-4 py-3">
+                                                <div class="p-1 text-sm text-gray-100">
+                                                    Chat History is off for this browser.
+                                                </div>
+                                                <div class="p-1 text-xs text-gray-500">
+                                                    When history is turned off, new chats on this browser won't appear in your history on any of your devices, be used to train our models, or stored for longer than 30 days. 
+                                                    <strong>
+                                                        This setting does not sync across browsers or devices.\
+                                                    </strong> 
+                                                    <a href="https://help.openai.com/en/articles/7730893" target="_blank" class="underline" rel="noreferrer">
+                                                        Learn more
+                                                    </a>
+                                                </div>
+                                                <button class="btn relative btn-primary mt-4 w-full">
+                                                    <div class="flex w-full gap-2 items-center justify-center">
+                                                        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path>
+                                                            <line x1="12" y1="2" x2="12" y2="12"></line>
+                                                        </svg>
+                                                        Enable chat history
+                                                    </div>
+                                                </button>
+                                            </div>
+                                            <div class="h-24 bg-gradient-to-t from-gray-900/0 to-gray-900"></div>
+                                        </div>
+                                        <div class="flex-col flex-1 transition-opacity duration-500 overflow-y-auto -mr-2">
+                                            <div class="flex flex-col gap-2 pb-2 text-gray-100 text-sm" id="dzisiaj" style="display: none;">
+                                                <div>
+                                                    <span>
+                                                        <div class="relative" data-projection-id="1" style="height: auto; opacity: 1;">
+                                                            <div class="sticky top-0 z-[16]" data-projection-id="2" style="opacity: 1;">
+                                                                <h3 class="h-9 pb-2 pt-3 px-3 text-xs text-gray-500 font-medium text-ellipsis overflow-hidden break-all bg-gray-900">
+                                                                    Today
+                                                            </h3>
+                                                            </div>
+                                                            <ol>
+                                                                <li class="relative z-[15]" data-projection-id="3" style="opacity: 1; height: auto;">
+                                                                    <a class="flex py-3 px-3 items-center gap-3 relative rounded-md hover:bg-[#2A2B32] cursor-pointer break-all )} )} hover:pr-4 bg-gray-900 group">
+                                                                        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                                                                        </svg>
+                                                                        <div class="flex-1 text-ellipsis max-h-5 overflow-hidden break-all relative">
+                                                                            Głupie pytanie
+                                                                            <div class="absolute inset-y-0 right-0 w-8 z-10 bg-gradient-to-l from-gray-900 group-hover:from-[#2A2B32]"></div>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                            </ol>
+                                                        </div>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="border-t border-white/20 pt-2 empty:hidden" style="position: absolute; margin-top: 535px; width: 244;">
+                                            <a class="flex p-3 items-center gap-3 transition-colors duration-200 text-white cursor-pointer text-sm hover:bg-gray-800 rounded-md">
+                                                <span class="flex w-full flex-row justify-between">
+                                                    <span class="gold-new-button flex items-center gap-3">
+                                                        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                                            <circle cx="12" cy="7" r="4"></circle>
+                                                        </svg>
+                                                        Upgrade to Plus
+                                                    </span>
+                                                    <span class="rounded-md bg-yellow-200 px-1.5 py-0.5 text-xs font-medium uppercase text-gray-800">
+                                                        NEW
+                                                    </span>
+                                                </span>
+                                            </a>
+                                            <div class="group relative" data-headlessui-state="">
+                                                <button class="flex w-full items-center gap-2.5 rounded-md px-3 py-3 text-sm transition-colors duration-200 hover:bg-gray-800 group-ui-open:bg-gray-800" id="headlessui-menu-button-:r8:" type="button" aria-haspopup="true" aria-expanded="false" data-headlessui-state="">
+                                                    <div class="flex-shrink-0">
+                                                        <div class="relative flex">
+                                                            <span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;">
+                                                                <span style="box-sizing: border-box; display: block; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;">
+                                                                    <img alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2728%27%20height=%2728%27/%3e" style="display: block; max-width: 100%; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;">
+                                                                </span>
+                                                                <!-- <img alt="User" src="https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAAcHTtfs3qhSwGWQ9bK8kD-d7QoVs1z94zVrRSLDrLtifDkp%3Ds96-c&amp;w=64&amp;q=75" decoding="async" data-nimg="intrinsic" class="rounded-sm" srcset="https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAAcHTtfs3qhSwGWQ9bK8kD-d7QoVs1z94zVrRSLDrLtifDkp%3Ds96-c&amp;w=32&amp;q=75 1x, https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAAcHTtfs3qhSwGWQ9bK8kD-d7QoVs1z94zVrRSLDrLtifDkp%3Ds96-c&amp;w=64&amp;q=75 2x" style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"> -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="grow overflow-hidden text-ellipsis whitespace-nowrap text-left text-white">
+                                                        Anomymys
+                                                    </div>
+                                                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 flex-shrink-0 text-gray-500" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="12" cy="12" r="1"></circle>
+                                                    <circle cx="19" cy="12" r="1"></circle>
+                                                    <circle cx="5" cy="12" r="1"></circle>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="flex h-full max-w-full flex-1 flex-col" id="reszta">
+                        <main class="relative h-full w-full transition-width flex flex-col overflow-auto items-stretch flex-1">
+                            <div class="absolute right-4 top-2 z-10 hidden flex-col gap-2 md:flex"></div>
+                            <div class="flex-1 overflow-hidden">
+                                <div class="react-scroll-to-bottom--css-pulis-79elbk h-full dark:bg-gray-800">
+                                    <div class="react-scroll-to-bottom--css-pulis-1n7m0yu">
+                                        <div class="flex flex-col text-sm dark:bg-gray-800" id="pole">
+                                            <div class="text-gray-800 w-full mx-auto md:max-w-2xl lg:max-w-3xl md:h-full md:flex md:flex-col px-6 dark:text-gray-100">
+                                                <h1 class="text-4xl font-semibold text-center mt-6 sm:mt-[20vh] ml-auto mr-auto mb-10 sm:mb-16 flex gap-2 items-center justify-center" style="margin-top: 25px; margin-bottom: 0;">
+                                                    CzatDziPiTi
+                                                </h1>
+                                                <div class="md:flex items-start text-center gap-3.5">
+                                                    <div class="flex flex-col mb-8 md:mb-auto gap-3.5 flex-1">
+                                                        <h2 class="flex gap-3 items-center m-auto text-lg font-normal md:flex-col md:gap-2">
+                                                            <svg stroke="currentColor" fill="none" stroke-width="1.5" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                                <circle cx="12" cy="12" r="5"></circle>
+                                                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                                                <line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line>
+                                                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                                            </svg>
+                                                            Examples
+                                                        </h2>
+                                                        <ul class="flex flex-col gap-3.5 w-full sm:max-w-md m-auto">
+                                                            <button class="w-full bg-gray-50 dark:bg-white/5 p-3 rounded-md hover:bg-gray-200 dark:hover:bg-gray-900">
+                                                                "Explain quantum computing in simple terms" →
+                                                            </button>
+                                                            <button class="w-full bg-gray-50 dark:bg-white/5 p-3 rounded-md hover:bg-gray-200 dark:hover:bg-gray-900">
+                                                                "Got any creative ideas for a 10 year old’s birthday?" →
+                                                            </button>
+                                                            <button class="w-full bg-gray-50 dark:bg-white/5 p-3 rounded-md hover:bg-gray-200 dark:hover:bg-gray-900">
+                                                                "How do I make an HTTP request in Javascript?" →
+                                                            </button>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="flex flex-col mb-8 md:mb-auto gap-3.5 flex-1">
+                                                        <h2 class="flex gap-3 items-center m-auto text-lg font-normal md:flex-col md:gap-2">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="h-6 w-6">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"></path>
+                                                            </svg>
+                                                            Capabilities
+                                                        </h2>
+                                                        <ul class="flex flex-col gap-3.5 w-full sm:max-w-md m-auto">
+                                                            <li class="w-full bg-gray-50 dark:bg-white/5 p-3 rounded-md">
+                                                                Remembers what user said earlier in the conversation
+                                                            </li>
+                                                            <li class="w-full bg-gray-50 dark:bg-white/5 p-3 rounded-md">
+                                                                Allows user to provide follow-up corrections
+                                                            </li>
+                                                            <li class="w-full bg-gray-50 dark:bg-white/5 p-3 rounded-md">
+                                                                Trained to decline inappropriate requests
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="flex flex-col mb-8 md:mb-auto gap-3.5 flex-1">
+                                                        <h2 class="flex gap-3 items-center m-auto text-lg font-normal md:flex-col md:gap-2">
+                                                            <svg stroke="currentColor" fill="none" stroke-width="1.5" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+                                                                <line x1="12" y1="9" x2="12" y2="13"></line>
+                                                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                                                            </svg>
+                                                            Limitations
+                                                        </h2>
+                                                        <ul class="flex flex-col gap-3.5 w-full sm:max-w-md m-auto">
+                                                            <li class="w-full bg-gray-50 dark:bg-white/5 p-3 rounded-md">
+                                                                May occasionally generate incorrect information
+                                                            </li>
+                                                            <li class="w-full bg-gray-50 dark:bg-white/5 p-3 rounded-md">
+                                                                May occasionally produce harmful instructions or biased content
+                                                            </li>
+                                                            <li class="w-full bg-gray-50 dark:bg-white/5 p-3 rounded-md">
+                                                                Limited knowledge of world and events after 2021
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="h-32 md:h-48 flex-shrink-0" id="podloga"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="absolute bottom-0 left-0 w-full border-t md:border-t-0 dark:border-white/20 md:border-transparent md:dark:border-transparent md:bg-vert-light-gradient bg-white dark:bg-gray-800 md:!bg-transparent dark:md:bg-vert-dark-gradient pt-2 md:pl-2 md:w-[calc(100%-.5rem)]">
+                                <form class="stretch mx-2 flex flex-row gap-3 last:mb-2 md:mx-4 md:last:mb-6 lg:mx-auto lg:max-w-2xl xl:max-w-3xl">
+                                    <div class="relative flex h-full flex-1 items-stretch md:flex-col" role="presentation">
+                                        <div class="flex flex-col w-full py-[10px] flex-grow md:py-4 md:pl-4 relative border border-black/10 bg-white dark:border-gray-900/50 dark:text-white dark:bg-gray-700 rounded-xl shadow-xs dark:shadow-xs">
+                                            <textarea id="prompt-textarea" tabindex="0" data-id="root" rows="1" placeholder="Send a message" class="m-0 w-full resize-none border-0 bg-transparent p-0 pr-10 focus:ring-0 focus-visible:ring-0 dark:bg-transparent md:pr-12 pl-3 md:pl-0" style="max-height: 200px; height: 24px; overflow-y: hidden;"></textarea>
+                                            <button id="button" class="absolute p-1 rounded-md md:bottom-3 md:p-2 md:right-3 dark:hover:bg-gray-900 dark:disabled:hover:bg-transparent right-2 disabled:text-gray-400 enabled:bg-brand-purple text-white bottom-1.5 transition-colors disabled:opacity-40">
+                                                <span class="" data-state="closed">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" class="h-4 w-4 m-1 md:m-0" stroke-width="2">
+                                                        <path d="M.5 1.163A1 1 0 0 1 1.97.28l12.868 6.837a1 1 0 0 1 0 1.766L1.969 15.72A1 1 0 0 1 .5 14.836V10.33a1 1 0 0 1 .816-.983L8.5 8 1.316 6.653A1 1 0 0 1 .5 5.67V1.163Z" fill="currentColor"></path>
+                                                    </svg>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="px-3 pb-3 pt-2 text-center text-xs text-gray-600 dark:text-gray-300 md:px-4 md:pb-6 md:pt-3">
+                                    <span>
+                                        Free Research Preview. ChatGPT may produce inaccurate information about people, places, or facts. 
+                                        <a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes" target="_blank" rel="noreferrer" class="underline">
+                                            ChatGPT May 24 Version
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </main>
+                    </div>
+                </div>
+            </div>
+            <div role="region" aria-label="Notifications (F8)" tabindex="-1" style="pointer-events:none">
+                <ol tabindex="-1" class="z-100 fixed bottom-0 right-0 m-0 flex  max-w-[100vw] list-none flex-col gap-[10px] p-[var(--viewport-padding)] outline-none [--viewport-padding:_25px]"></ol>
+            </div>
+            <div class="absolute left-0 right-0 top-0 z-[2]"></div>
+        </div>
+        <script id="__NEXT_DATA__" type="application/json">
+            {
+                "props":{
+                    "pageProps":{
+                        "user":{
+                            "id":"user-pRj0M5zOf6mrO6jckTrFsVPn",
+                            "name":"Krzysztof Rybiałek",
+                            "email":"krzryb9310@wp.pl",
+                            "image":"https://lh3.googleusercontent.com/a/AAcHTtfs3qhSwGWQ9bK8kD-d7QoVs1z94zVrRSLDrLtifDkp=s96-c",
+                            "picture":"https://lh3.googleusercontent.com/a/AAcHTtfs3qhSwGWQ9bK8kD-d7QoVs1z94zVrRSLDrLtifDkp=s96-c",
+                            "idp":"google-oauth2",
+                            "iat":1688030326,
+                            "mfa":false,
+                            "groups":[],
+                            "intercom_hash":"c27bad18c83832cd0d37d4a669fb3dfdd93790bcbe0a0f12022964c808acc949"
+                        },
+                        "serviceStatus":{},
+                        "userCountry":"PL",
+                        "geoOk":true,"serviceAnnouncement":{
+                            "paid":{},
+                            "public":{}
+                        },
+                        "isUserInCanPayGroup":true,
+                        "_sentryTraceData":"c422ccbb2f434bf3aa6616e9d151ef0b-98e929b6fca1956d-1",
+                        "_sentryBaggage":"sentry-environment=production,sentry-release=aaee83c4c66706e2c64719140f382c433eb33ebf,sentry-transaction=%2F,sentry-public_key=33f79e998f93410882ecec1e57143840,sentry-trace_id=c422ccbb2f434bf3aa6616e9d151ef0b,sentry-sample_rate=1"
+                    },
+                    "__N_SSP":true
+                },
+                "page":"/",
+                "query":{},
+                "buildId":"CGRk_Om_aEGLXXSCuMmxw",
+                "isFallback":false,
+                "gssp":true,"scriptLoader":[]
+            }
+        </script>
+        <!-- <script>
+            (
+                function(){
+                    var js = "window['__CF$cv$params']={r:'7e470fa37f4c2c29',m:'ecuMqgjKA.tUWL16V5ITB84nbG01X7q.3.YAjgRYfT4-1688973804-0-ATkCNXF3xUukBx4aYyCXjsfEZfDxdzwvSj6bJe06xNyt'};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/invisible.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";
+                    var _0xh = document.createElement('iframe');
+                    _0xh.height = 1;
+                    _0xh.width = 1;
+                    _0xh.style.position = 'absolute';
+                    _0xh.style.top = 0;
+                    _0xh.style.left = 0;
+                    _0xh.style.border = 'none';
+                    _0xh.style.visibility = 'hidden';
+                    document.body.appendChild(_0xh);
+                    function handler() {
+                        var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;
+                        if (_0xi) {
+                            var _0xj = _0xi.createElement('script');
+                            _0xj.nonce = '';
+                            _0xj.innerHTML = js;
+                            _0xi.getElementsByTagName('head')[0].appendChild(_0xj);
+                        }
+                    }
+                    if (document.readyState !== 'loading') {
+                        handler();
+                    } else if (window.addEventListener) {
+                        document.addEventListener('DOMContentLoaded', handler);
+                    } else {
+                        var prev = document.onreadystatechange || function () {};
+                        document.onreadystatechange = function (e) {
+                            prev(e);
+                            if (document.readyState !== 'loading') {
+                                document.onreadystatechange = prev;handler();
+                            }
+                        };
+                    }
+                }
+            )();
+        </script> -->
+        <iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"></iframe>
+        <next-route-announcer>
+            <p aria-live="assertive" id="__next-route-announcer__" role="alert" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 1px; white-space: nowrap; overflow-wrap: normal;"></p>
+        </next-route-announcer>
+        <div portal-container="">
+            <span class="pointer-events-none fixed inset-0 z-[60] mx-auto my-2 flex max-w-[560px] flex-col items-stretch justify-start md:pb-5"></span>
+        </div>
+        <iframe id="intercom-frame" style="position: absolute !important; opacity: 0 !important; width: 1px !important; height: 1px !important; top: 0 !important; left: 0 !important; border: none !important; display: block !important; z-index: -1 !important; pointer-events: none;" aria-hidden="true" tabindex="-1" title="Intercom"></iframe>
+        <div class="intercom-lightweight-app">
+            <style id="intercom-lightweight-app-style" type="text/css">
+                @keyframes intercom-lightweight-app-launcher {
+                    from {
+                    opacity: 0;
+                    transform: scale(0.5);
+                    }
+                    to {
+                    opacity: 1;
+                    transform: scale(1);
+                    }
+                }
+
+                @keyframes intercom-lightweight-app-gradient {
+                    from {
+                    opacity: 0;
+                    }
+                    to {
+                    opacity: 1;
+                    }
+                }
+
+                @keyframes intercom-lightweight-app-messenger {
+                    0% {
+                    opacity: 0;
+                    transform: scale(0);
+                    }
+                    40% {
+                    opacity: 1;
+                    }
+                    100% {
+                    transform: scale(1);
+                    }
+                }
+
+                h1{
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+
+                .intercom-lightweight-app {
+                    position: fixed;
+                    z-index: 2147483001;
+                    width: 0;
+                    height: 0;
+                    font-family: intercom-font, "Helvetica Neue", "Apple Color Emoji", Helvetica, Arial, sans-serif;
+                }
+
+                .intercom-lightweight-app-gradient {
+                    position: fixed;
+                    z-index: 2147483002;
+                    width: 500px;
+                    height: 500px;
+                    bottom: 0;
+                    right: 0;
+                    pointer-events: none;
+                    background: radial-gradient(
+                    ellipse at bottom right,
+                    rgba(29, 39, 54, 0.16) 0%,
+                    rgba(29, 39, 54, 0) 72%);
+                    animation: intercom-lightweight-app-gradient 200ms ease-out;
+                }
+
+                .intercom-lightweight-app-launcher {
+                    position: fixed;
+                    z-index: 2147483003;
+                    padding: 0 !important;
+                    margin: 0 !important;
+                    border: none;
+                    bottom: 20px;
+                    right: 20px;
+                    max-width: 48px;
+                    width: 48px;
+                    max-height: 48px;
+                    height: 48px;
+                    border-radius: 50%;
+                    background: #202123;
+                    cursor: pointer;
+                    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.06), 0 2px 32px 0 rgba(0, 0, 0, 0.16);
+                    transition: transform 167ms cubic-bezier(0.33, 0.00, 0.00, 1.00);
+                    box-sizing: content-box;
+                }
+
+
+                .intercom-lightweight-app-launcher:hover {
+                    transition: transform 250ms cubic-bezier(0.33, 0.00, 0.00, 1.00);
+                    transform: scale(1.1)
+                }
+
+                .intercom-lightweight-app-launcher:active {
+                    transform: scale(0.85);
+                    transition: transform 134ms cubic-bezier(0.45, 0, 0.2, 1);
+                }
+
+
+                .intercom-lightweight-app-launcher:focus {
+                    outline: none;
+
+                    
+                }
+
+                .intercom-lightweight-app-launcher-icon {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 48px;
+                    height: 48px;
+                    transition: transform 100ms linear, opacity 80ms linear;
+                }
+
+                .intercom-lightweight-app-launcher-icon-open {
+                    
+                        opacity: 1;
+                        transform: rotate(0deg) scale(1);
+                    
+                }
+
+                .intercom-lightweight-app-launcher-icon-open svg {
+                    width: 24px;
+                    height: 24px;
+                }
+
+                .intercom-lightweight-app-launcher-icon-open svg path {
+                    fill: rgb(255, 255, 255);
+                }
+
+                .intercom-lightweight-app-launcher-icon-self-serve {
+                    
+                        opacity: 1;
+                        transform: rotate(0deg) scale(1);
+                    
+                }
+
+                .intercom-lightweight-app-launcher-icon-self-serve svg {
+                    height: 44px;
+                }
+
+                .intercom-lightweight-app-launcher-icon-self-serve svg path {
+                    fill: rgb(255, 255, 255);
+                }
+
+                .intercom-lightweight-app-launcher-custom-icon-open {
+                    max-height: 24px;
+                    max-width: 24px;
+
+                    
+                        opacity: 1;
+                        transform: rotate(0deg) scale(1);
+                    
+                }
+
+                .intercom-lightweight-app-launcher-icon-minimize {
+                    
+                        opacity: 0;
+                        transform: rotate(-60deg) scale(0);
+                    
+                }
+
+                .intercom-lightweight-app-launcher-icon-minimize svg path {
+                    fill: rgb(255, 255, 255);
+                }
+
+                .intercom-lightweight-app-messenger {
+                    position: fixed;
+                    z-index: 2147483003;
+                    overflow: hidden;
+                    background-color: white;
+                    animation: intercom-lightweight-app-messenger 250ms cubic-bezier(0, 1, 1, 1);
+                    transform-origin: bottom right;
+                    
+                        width: 400px;
+                        height: calc(100% - 40px);
+                        max-height: 704px;
+                        min-height: 250px;
+                        right: 20px;
+                        bottom: 20px;
+                        box-shadow: 0 5px 40px rgba(0,0,0,0.16);
+                    
+
+                    border-radius: 16px;
+                }
+
+                .intercom-lightweight-app-messenger-header {
+                    height: 64px;
+                    border-bottom: none;
+                    background: #202123
+
+                    
+                }
+
+                .intercom-lightweight-app-messenger-footer{
+                    position:absolute;
+                    bottom:0;
+                    width: 100%;
+                    height: 80px;
+                    background: #fff;
+                    font-size: 14px;
+                    line-height: 21px;
+                    border-top: 1px solid rgba(0, 0, 0, 0.05);
+                    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+                    
+                }
+
+                @media print {
+                    .intercom-lightweight-app {
+                    display: none;
+                    }
+                }
+            </style>
+        </div>
+    </body>
+</html>

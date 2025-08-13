@@ -1,0 +1,95 @@
+@font-face {
+    font-display: swap;
+    font-family: Signifier;
+    font-style: normal;
+    src: url(https://cdn.openai.com/common/fonts/signifier/signifier-light.woff2) format("woff2")
+}
+
+.tlo{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-image: url("../img/chatGPT_tlo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.zawartosc{
+    display: inline;
+    position: fixed;
+}
+
+fieldset{
+    background-color: white;
+    margin: 10x;
+}
+
+.column-theree, .column-two{
+    float: left;
+}
+
+#noweArgumnety, #odpowiedz{
+    height: 350px;
+    width: 350px;
+    background-color: white;
+}
+
+#logo{
+    padding: 60px;
+    height: 325px;
+    width: 325px;
+}
+
+button{
+    height: 60px;
+    width: 150px;
+    background-color: black;
+    color: white;
+}
+
+#analiza{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    margin: 35px;
+    align-items: center;
+}
+
+h1, h3{
+    background-color: white;
+}
+
+h1{
+    position: fixed;
+    font-size: 50px;
+}
+
+p{
+    margin: 2.5px;
+    width: 175px;
+}
+
+#maleLogo{
+    margin: 2.5px;
+}
+
+#kwestiaChatu, .column-two{
+    background-color: #444654;
+    color: white;
+    font-family: Signifier;
+    font-style: normal;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.column-theree{
+    margin: 35px;
+}
+
+#iframe{
+    margin: 35px;
+}

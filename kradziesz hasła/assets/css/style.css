@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+}
+
+.liczby{
+    /* text-align: center; */
+    width: 100%;
+    margin-top: 55px;
+    position: fixed;
+}
+
+.column-theree{
+    width: 24.5%;
+    height: 120%;
+}

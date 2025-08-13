@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head lang="pl">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>Ulubione piosenki Krzysia</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+        <link rel="icon" href="assets/img/odtworz.png">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+        <script src="assets/js/script.js" defer></script>
+    </head>
+    <body>
+        <head>
+            <nav>
+                <ul class="column-theree">
+                    <li onclick="doTylu()" id="doTylu">
+                        <img src="assets/img/do_tylu.png">
+                    </li>
+                    <li onclick="odtworz()" id="odtworz">
+                        <img src="assets/img/odtworz.png">
+                    </li>
+                    <li onclick="wstrzymaj()" id="wstrzymaj" style="display: none;">
+                        <img src="assets/img/wstrzymaj.png">
+                    </li>
+                    <li onclick="dalej()" id="dalej">
+                        <img src="assets/img/dalej.png">
+                    </li>
+                </ul> 
+                <div>
+                    <img src="assets/img/dźwięk.png" class="glosnosc" onclick="zero()">
+                    <input type="range" id="volumeSlider" min="0" max="1" step="0.1" value="1">
+                </div>
+            </nav>
+        </head>
+        <h1>Ulubione piosenki Krzysia</h1>
+        <video width="80%" height="100%" controls>
+            <source src="assets/vod/Super Przemo kontra Złownik.mp4" type="video/mp4">
+        </video>
+        <br>
+        <select name="piosenka" id="lista">
+            <option value="kot"  selected>Kot pyta co się dzieje.</option>
+            <option value="Plac_podatki" >Płać podatki</option>
+            <option value="kasztany" >Kasztany</option>
+        </select>
+        <br>
+    </body>
+</html>
