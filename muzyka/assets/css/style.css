@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', Arial;
+}
+
+body {
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  color: #333;
+}
+
+audio {
+  margin: 20px auto;
+}
+
+input {
+  margin-top: 10px;
+}
+
+nav div img {
+  width: 15px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li img {
+    width: 50px;
+    height: auto;
+  }
+
+.piosenka{
+  display: none;
+}

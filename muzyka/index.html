@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head lang="pl">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>Ulubione piosenki Krzysia</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+        <link rel="icon" href="assets/img/odtworz.png">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+        <script src="assets/js/script.js" defer></script>
+    </head>
+    <body>
+        <head>
+            <nav>
+                <ul class="column-theree">
+                    <li onclick="petla()" id="petla">
+                        <img src="assets/img/pętla.png">
+                    </li>
+                    <li onclick="petlaKoniec()" id="petlaKoniec" style="display: none;">
+                        <img src="assets/img/pętla koniec.png">
+                    </li>
+                    <br>
+                    <li onclick="doTylu()" id="doTylu">
+                        <img src="assets/img/do_tylu.png">
+                    </li>
+                    <li onclick="odtworz()" id="odtworz">
+                        <img src="assets/img/odtworz.png">
+                    </li>
+                    <li onclick="wstrzymaj()" id="wstrzymaj" style="display: none;">
+                        <img src="assets/img/wstrzymaj.png">
+                    </li>
+                    <li onclick="dalej()" id="dalej">
+                        <img src="assets/img/dalej.png">
+                    </li>
+                </ul> 
+                <div>
+                    <img src="assets/img/dźwięk.png" class="glosnosc" onclick="zero()">
+                    <input type="range" id="volumeSlider" min="0" max="1" step="0.1" value="1">
+                </div>
+            </nav>
+        </head>
+        <h1>Ulubione piosenki Krzysia</h1>
+        <audio class="piosenka" id="kot">
+            <source src="assets/audio/kot.mp3" id="source" type="audio/mpeg">
+        </audio>
+        <audio class="piosenka" id="Plac_podatki">
+            <source src="assets/audio/Plac_podatki.mp3" id="source" type="audio/mpeg">
+        </audio>
+        <audio class="piosenka" id="kasztany">
+            <source src="assets/audio/kasztany.mp3" id="source" type="audio/mpeg">
+        </audio>
+        <input type="range" id="seekSlider" min="0" max="1" value="0" style="display: none;">
+        <input type="range" id="poNic" min="0" max="1" value="0" style="display: none;">
+        <br>
+        <select name="piosenka" id="lista">
+            <option value="kot"  selected>Kot pyta co się dzieje.</option>
+            <option value="Plac_podatki" >Płać podatki</option>
+            <option value="kasztany" >Kasztany</option>
+        </select>
+        <br>
+    </body>
+</html>
